@@ -19,11 +19,6 @@ module.exports = class HagglesMcGee {
              this.rounds--;
              this.log(`E31`);
 
-            //  if(this.rounds >= 4)
-            //  {
-            //      this.log(`${this.values} Values`);
-            //  }
-            
         // ask for everything if first turn
             if(this.me == 0 && this.rounds >= 4)
             {
@@ -31,42 +26,9 @@ module.exports = class HagglesMcGee {
             }
 
 
-        //     var perObject = [];
-        //     var cheapestObject = 0;
-        //     var secondCheapestObject = 0;
-        //     var mostExpensiveObject = 0;
-
-        //    // make new array with the per object values in descending order, 0 if either value or count is 0
-        
-        //     for(let i = 0; i < o.length; i++)
-        //     {
-        //         if(this.counts[i] > 0 && this.values[i] > 0)
-        //         {
-        //             perObject.push((this.values[i] / this.counts[i]));
-        //         }
-        //         else
-        //         {
-        //             perObject.push(0);
-        //         }
-                
-        //     }
-
-                
-        //         var perObjectSorted = perObject.sort(function(a, b) { return b - a;});
-                
-        //         cheapestObject = perObjectSorted.slice(2,3);
-        //         secondCheapestObject = perObjectSorted.slice(1,2);
-        //         mostExpensiveObject = perObjectSorted.slice(0,1);
-
-        //         // this.log(perObject);
-        //         // this.log(perObjectSorted);
-        //         // this.log(cheapestObject);
-
             if(o) 
             {
-                    // makes a ratio of offer value to total value
-
-                    //let hw = (.6 + this.total * (this.rounds * .1));
+                  
 
                     // make array of all items with value to me
                     let omain = []; 
@@ -97,7 +59,7 @@ module.exports = class HagglesMcGee {
                         {
                         return;
                         }
-                        //if not, do stuff
+                        
 
                         else
                         {
@@ -227,22 +189,7 @@ module.exports = class HagglesMcGee {
 
 
 
-                            // if(x > (this.total * hw))
-                            // {
-
-                            // while (x > (this.total * hw) && (cheapestObject <= (x - (this.total * hw))))     
-                            //         {
-                            //             for(let a = 0; a < p.length; a++)
-                            //             {
-                            //                 if(p[a] != 0 && (this.values[a] / p[a]) == cheapestObject)
-                            //                 {
-                            //                     p[a] = (p[a] - 1);
-                            //                     x -= (p[a] * this.values[a]);
-                            //                 }
-
-                            //             }
-                            //         } 
-                            // }
+             
                            
 
 
