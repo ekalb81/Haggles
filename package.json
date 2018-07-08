@@ -1,0 +1,19 @@
+{
+  "name": "haggles",
+  "version": "1.0.0",
+  "description": "Working example for Hola Haggle Challenge",
+  "main": "hagProto1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekalb81/Haggles.git"
+  },
+  "author": "ekalb81",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekalb81/Haggles/issues"
+  },
+  "homepage": "https://github.com/ekalb81/Haggles#readme"
+}
