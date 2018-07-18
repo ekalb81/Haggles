@@ -36,7 +36,7 @@ module.exports = class HagglesMcGee {
 
                         let sum = 0;
 
-                        for (let i = 0; a < offer.length; i++) {
+                        for (let i = 0; i < offer.length; i++) {
                             sum += this.values[i] * offer[i];
                         }
             
